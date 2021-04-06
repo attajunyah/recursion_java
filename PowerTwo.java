@@ -18,8 +18,7 @@ public class PowerTwo
 		else if (n == 0) { return 1;}
 		else 
 		{
-			int nextLower = pow2(n-1);
-			return 2 * nextLower;
+			return 2 * pow2(n-1);
 		}
 	}
 
